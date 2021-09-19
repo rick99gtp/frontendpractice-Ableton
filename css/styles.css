@@ -1,0 +1,79 @@
+:root {
+  --yellow: #fbffa7;
+  --orange: #ff764d;
+  --light-blue: #b1c5ff;
+  --purple: #d5b3ff;
+  --green: #b6ffc0;
+  --blue: #0000ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f3f3f3;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page {
+  background: #fff;
+  margin-left: 8.33333vw;
+  margin-right: 8.3333vw;
+  margin-bottom: 8.3333vw;
+}
+
+header {
+  padding: .65rem 1.5rem;
+  border-bottom: 2px solid #f3f3f3;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+ul.right-links li {
+  font-size: 16px;
+}
+
+ul.right-links li:first-child {
+  color: var(--blue);
+}
+
+ul.right-links li:last-child {
+  font-size: 14px;
+}
+
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styles.css.map */
